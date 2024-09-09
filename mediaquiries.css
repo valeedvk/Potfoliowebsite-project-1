@@ -1,0 +1,198 @@
+@media screen and (max-width: 1000px) {
+  #navbar {
+    display: none;
+  }
+
+  .small-screen-navbar{
+display: flex;
+  }
+  .hero-section {
+    gap: 1rem;
+    padding: 3rem 0;
+  }
+  .hero-clm-1 img {
+    width: 80%;
+  }
+  .hero-clm-2 h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  .hero-clm-2 h3 {
+    font-size: 1.2rem;
+  }
+
+  .hero-btns {
+    padding: 0.8rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+  }
+
+  .hero-icons img {
+    width: 30px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .sections {
+    padding: 7rem 2rem 2rem 2rem;
+  }
+
+  .about-content {
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+
+  .about-raw {
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-raw .column {
+    padding: 0.5rem;
+  }
+
+  .column img {
+    width: 30px;
+  }
+
+  .about-text {
+    font-size: 0.7rem;
+  }
+
+  .column p {
+    font-size: 0.7rem;
+  }
+  .expereince-content {
+    gap: 4rem;
+  }
+
+  .experience img {
+    width: 30px;
+  }
+
+  .experience h4 {
+    font-size: 1rem;
+  }
+
+  .project-raw {
+    gap: 2rem;
+  }
+
+  .pro-column {
+    width: 35%;
+    padding: 2rem;
+  }
+
+  .contact-box {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-section {
+    display: block;
+    gap: 0;
+    padding: 4rem 0;
+  }
+
+  .hero-clm-1 {
+    width: 100%;
+    display: flex;
+    padding: 3rem 0;
+    justify-content: center;
+  }
+
+  .hero-clm-2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-clm-2 h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+
+  .about-content {
+    padding: 3rem 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .about-img {
+    width: 100%;
+  }
+
+  .about-img img {
+    width: 100%;
+  }
+
+  .about-dtls {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+  .about-raw {
+    gap: 1rem;
+  }
+
+  .column img {
+    width: 20px;
+  }
+
+  .expereince-content {
+    padding: 1rem;
+    gap: 2rem 3rem;
+  }
+
+  .experience h4 {
+    font-size: 0.8rem;
+  }
+
+  .experience p {
+    font-size: 0.8rem;
+  }
+
+  .pro-column {
+    width: 80%;
+    padding: 2rem;
+  }
+
+  .pro-btn button {
+    padding: 10px;
+    border: 2px solid #f9a600;
+    border-radius: 2rem;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+
+  .contact-box {
+    display: block;
+    width: 80%;
+    padding: 1.5rem;
+  }
+
+  .contact-col {
+    margin-bottom: 1rem;
+  }
+
+  .contact-col a {
+    font-size: 1rem;
+  }
+  .footer {
+    padding: 1rem;
+
+  }
+  
+.footer p {
+  font-size: 0.7rem;
+
+}
+}
